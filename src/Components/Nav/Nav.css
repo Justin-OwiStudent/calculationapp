@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav {
+    background-color: grey;
+    float: left;
+    width: 8%;
+    height: 100vh;
+}
+
+.LOGO {
+    width: 130px;
+    height: 100px;
+    margin: 20px;
+    background-color: black;
+}
+
+
+
+/* .container-fluid{
+    background-color: orange;
+}
+
+.container-sm {
+    background-color: blue;
+}
+
+
+.row {
+    background-color: green;
+}
+
+.col-4 {
+    background-color: red;
+    height: 100vh;
+} */
