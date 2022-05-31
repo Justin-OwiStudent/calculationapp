@@ -1,15 +1,17 @@
 import { Container } from "react-bootstrap";
 import React from "react";
-import '../Nav/Nav.css'
+import classes from './Nav.module.css'
 
 const Nav = () => {
   return (
     <>
 
-    <div className="nav">
-        <div className="LOGO">
-            
-        </div>
+    <div className={classes.nav}>
+        <div className={classes.LOGO}></div>
+        
+        <div className={classes.navItem}> Tax Information </div>
+        <div className={classes.navItem}> slaba </div>
+
     </div>
 
 

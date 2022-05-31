@@ -1,18 +1,18 @@
 import React from "react"
-import './Monthly.css'
+import classes from './Monthly.module.css'
 
 const Monthly = () => {
     return(
         <>
-            <div className="Month">
-                <h1>Monthly household salary</h1>
+            <div className={classes.Month}>
+                <h1 className={classes.mon}>Monthly household salary</h1>
 
-                <input className="sal-1"></input>
-                <input className="sal-2"></input>
-                <input className="sal-3"></input>
-                <input className="sal-4"></input>
+                <input className={classes.sal1} placeholder="Enter Salary..." type="number"></input>
+                
+                
+                <h2> placeholder for total </h2>
 
-                <button className="btn"> calculate total </button>
+                <button className={classes.btn}> calculate total </button>
             </div>
         </>
     )

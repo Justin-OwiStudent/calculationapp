@@ -1,5 +1,5 @@
 import React from "react";
-import './Tax.css'
+import classes from './Tax.module.css'
 
 const Tax = () => {
 
@@ -9,16 +9,12 @@ const Tax = () => {
 
     return (
         <>
-            <div className="tax">
-                <select className="sel">
-                <option value="" disabled selected hidden>Choose tax bracket...</option>
-                    <option>1-2</option>
-                    <option>2-3</option>
-                    <option>3-4</option>
-                    <option>4-5</option>
-                </select>
+            <div className={classes.tax}>
 
-                <button className="btn2"> Calculate </button>
+                <h1 className={classes.Tex}> Calculate your Tax </h1>
+                <input className={classes.sel} placeholder="Enter Salary Here..." type="number"></input>
+
+                <button className={classes.btn2}> Calculate </button>
             </div>
         </>
     )
