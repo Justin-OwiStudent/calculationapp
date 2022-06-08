@@ -1,0 +1,106 @@
+.big {
+    width: 50%;
+    height: 400px;
+    background-color: rgb(243, 243, 243);
+    float: left;
+    margin-left: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
+
+}
+
+.big2 {
+    width: 20%;
+    height: 400px;
+    background-color: red;
+    float: left;
+    margin-left: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
+    background-color: #f1f1f1;
+
+}
+
+.inp1 {
+    width: 35%;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 0px;
+    float: left;
+    padding-left: 10px;
+}
+
+.inp2{
+    width: 30%;
+    float: left;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 50px;
+    padding-left: 10px;
+
+}
+
+h3 {
+    margin-top: 5px;
+    font-weight: 400;
+    background-color: rgba(0, 128, 0, 0);
+    margin-left: 30px;
+
+}
+
+.list {
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 250px;
+    background-color: rgb(230, 235, 230);
+    float: left;
+    box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+.bracket1 {
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    margin-top: 10px;
+    background-color: green;
+}
+
+.bracket2 {
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    margin-top: 10px;
+    background-color: green;
+}
+
+.bracket3 {
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    margin-top: 10px;
+    background-color: green;
+}
+
+.bracket4 {
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    margin-top: 10px;
+    background-color: green;
+}
+
+.bracket5 {
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    margin-top: 10px;
+    background-color: green;
+}
+
+p{
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+}

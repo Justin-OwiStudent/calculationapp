@@ -5,7 +5,7 @@ const Savings = () => {
     return(
         <>
         <div className={classes.save}>
-
+            <h3>savings</h3>
         </div>
         </>
     )
