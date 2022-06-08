@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import classes from './Tax.module.css'
 
 const Tax = () => {
 
-    const calculateTaxBracket = () => {
-        
-    } 
+    const [calculate, setCalculate] = useState();
+    
+
+    // const calculateTax = (e) => {
+    //     value = e.target.value;
+
+    //     value*18(setCalculate)
+    // } 
 
     return (
         <>

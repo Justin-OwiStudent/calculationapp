@@ -3,7 +3,7 @@ import classes from './Monthly.module.css'
 
 const Monthly = () => {
 
-    
+   
 
     return(
         <>

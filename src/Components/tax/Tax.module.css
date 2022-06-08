@@ -1,13 +1,12 @@
 .tax {
-    width: 30%;
+    width: 40%;
     height: 300px;
     background-color: #2D2E40;
-    box-shadow: 8px 9px 17px -7px rgba(0,0,0,0.75);
--webkit-box-shadow: 8px 9px 17px -7px rgba(0,0,0,0.75);
--moz-box-shadow: 8px 9px 17px -7px rgba(0,0,0,0.75);
+    box-shadow: 0 0 2px 0.1px#5C7DEE;
+
     float: left;
-    margin: 50px;
-    border-radius: 25px;
+    margin-top: 50px;
+    
 }
 
 .sel {

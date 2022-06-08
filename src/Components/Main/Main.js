@@ -1,5 +1,6 @@
 import React from "react";
 import Monthly from "../Monthly/Monthly";
+import Savings from "../savings/Savings";
 import Tax from "../tax/Tax";
 import classes from './Main.module.css'
 
@@ -10,6 +11,7 @@ const Main = () => {
 
             <Monthly></Monthly>
             <Tax></Tax>
+            <Savings></Savings>
         </div>
         </>
     )

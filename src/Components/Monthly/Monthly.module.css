@@ -4,11 +4,10 @@
     float: left;
     background-color: #2D2E40;
     margin: 50px;
-    border-radius: 25px;
+    
     position: relative;
-    box-shadow: 8px 9px 17px -7px rgba(0,0,0,0.75);
--webkit-box-shadow: 8px 9px 17px -7px rgba(0,0,0,0.75);
--moz-box-shadow: 8px 9px 17px -7px rgba(0,0,0,0.75);
+    box-shadow: 0 0 2px 0.1px#5C7DEE;
+
 }
 
 .mon {
