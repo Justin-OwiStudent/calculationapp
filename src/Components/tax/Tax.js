@@ -16,7 +16,7 @@ const Tax = () => {
         <>
             <div className={classes.tax}>
 
-                <h1 className={classes.Tex}> Calculate your Income after Tax </h1>
+                <h1 className={classes.Tex}> Calculate your Income after Tax. </h1>
                 <input className={classes.sel} placeholder="Enter Salary Here..." type="number"></input>
 
                 <button className={classes.btn2}> Calculate </button>

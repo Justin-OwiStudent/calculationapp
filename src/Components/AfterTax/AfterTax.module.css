@@ -1,11 +1,11 @@
 .big {
     width: 50%;
     height: 400px;
-    background-color: rgb(243, 243, 243);
     float: left;
     margin-left: 40px;
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
+    background-color: rgb(243, 243, 243);
 
 }
 
@@ -41,12 +41,36 @@
 
 }
 
+h1 {
+    color: #000000;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
 h3 {
-    margin-top: 5px;
+    font-size: 30px;
     font-weight: 400;
     background-color: rgba(0, 128, 0, 0);
     margin-left: 30px;
+    color: #000000;
+}
 
+.bttn {
+    float: left;
+    height: 48px;
+    width: 120px;
+    margin-left: 25px;
+    border: 1px solid black;
+    background-color: #5C7DEE;
+    border-radius: 25px;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.bttn:hover {
+    background-color: #71C3A8;
 }
 
 .list {
@@ -54,7 +78,7 @@ h3 {
     margin-left: 25px;
     margin-top: 25px;
     height: 250px;
-    background-color: rgb(230, 235, 230);
+    
     float: left;
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
     border-radius: 20px;
@@ -63,44 +87,83 @@ h3 {
 .bracket1 {
     width: 95%;
     margin: auto;
-    height: 50px;
+    height: 35px;
+
     margin-top: 10px;
-    background-color: green;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    padding-left: 10px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.50);
 }
 
 .bracket2 {
     width: 95%;
     margin: auto;
-    height: 50px;
+    height: 35px;
+
     margin-top: 10px;
-    background-color: green;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    padding-left: 10px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.50);
 }
 
 .bracket3 {
     width: 95%;
     margin: auto;
-    height: 50px;
+    height: 35px;
+
     margin-top: 10px;
-    background-color: green;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    padding-left: 10px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.50);
 }
 
 .bracket4 {
     width: 95%;
     margin: auto;
-    height: 50px;
+    height: 35px;
     margin-top: 10px;
-    background-color: green;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    padding-left: 10px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.50);
 }
 
 .bracket5 {
     width: 95%;
     margin: auto;
-    height: 50px;
+    height: 35px;
     margin-top: 10px;
-    background-color: green;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    padding-left: 10px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.50);
 }
 
-p{
+.bracket6 {
+    width: 95%;
+    margin: auto;
+    height: 35px;
+    margin-top: 10px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    padding-left: 10px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.50);
+}
+.bracket7 {
+    width: 95%;
+    margin: auto;
+    height: 35px;
+    margin-top: 10px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    padding-left: 10px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.50);
+}
+
+.pep{
     background-color: rgba(255, 255, 255, 0);
-    font-size: 25px;
+    font-size: 20px;
 }

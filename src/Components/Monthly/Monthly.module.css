@@ -2,12 +2,13 @@
     width: 45%;
     height: 300px;
     float: left;
-    background-color: #f1f1f1;
-    margin-left: 50px;
+  
+    margin-left: 35px;
     margin-top: 10px;
     position: relative;
     /* box-shadow: 0 0 2px 0.1px#5C7DEE; */
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
+    background-color: #f1f1f1;
 
     border-radius: 20px;
 }
@@ -15,7 +16,7 @@
 .mon {
     background-color: rgba(255, 0, 0, 0);
     text-align: center;
-    color: #5C7DEE;
+    color: #000000;
     margin-top: 10px;
     margin-bottom: 20px;
     font-weight: 400;
@@ -39,7 +40,7 @@ h2 {
     left: 25px;
     font-size: 50px;
     background-color: #2d2e4000;
-    color: #5C7DEE;
+    color: #000000;
     font-weight: 400;
 
 }
@@ -55,7 +56,6 @@ h2 {
     border: 1px solid black;
     background-color: #5C7DEE;
     border-radius: 25px;
-    border: 1px solid black;
     font-size: 18px;
     font-weight: 400;
     color: white;
