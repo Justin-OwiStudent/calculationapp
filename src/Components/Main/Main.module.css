@@ -1,10 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .main {
     float: left;
-    margin-top: 25px;
+    padding-top: 10px;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     /* background-color: #1E1F30;
     
     border: 1px solid #5673dd4f; */
-
+    background-color: #121324;
+    background-image: url(../images/background.jpg);
 }

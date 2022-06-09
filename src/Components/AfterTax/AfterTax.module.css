@@ -5,19 +5,25 @@
     margin-left: 40px;
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
-    background-color: rgb(243, 243, 243);
+    /* background-color: #2D2E40; */
+
+    background-color: #2d2e40d8;
+
 
 }
 
 .big2 {
     width: 20%;
     height: 400px;
-    background-color: red;
+    
     float: left;
     margin-left: 40px;
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
-    background-color: #f1f1f1;
+    /* background-color: #2D2E40; */
+
+    background-color: #2d2e40d8;
+
 
 }
 
@@ -42,9 +48,10 @@
 }
 
 h1 {
-    color: #000000;
+    color: #5C7DEE;
     margin-left: 15px;
     font-weight: 400;
+    background-color: rgba(255, 0, 0, 0);
 }
 
 h3 {
@@ -52,7 +59,8 @@ h3 {
     font-weight: 400;
     background-color: rgba(0, 128, 0, 0);
     margin-left: 30px;
-    color: #000000;
+    color: #5C7DEE;
+
 }
 
 .bttn {

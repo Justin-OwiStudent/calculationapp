@@ -2,13 +2,13 @@
     width: 45%;
     height: 300px;
     float: left;
-  
     margin-left: 35px;
     margin-top: 10px;
     position: relative;
     /* box-shadow: 0 0 2px 0.1px#5C7DEE; */
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
-    background-color: #f1f1f1;
+    background-color: #2d2e40d8;
+
 
     border-radius: 20px;
 }
@@ -16,7 +16,8 @@
 .mon {
     background-color: rgba(255, 0, 0, 0);
     text-align: center;
-    color: #000000;
+    color: #5C7DEE;
+
     margin-top: 10px;
     margin-bottom: 20px;
     font-weight: 400;
@@ -40,7 +41,8 @@ h2 {
     left: 25px;
     font-size: 50px;
     background-color: #2d2e4000;
-    color: #000000;
+        color: #5C7DEE;
+
     font-weight: 400;
 
 }

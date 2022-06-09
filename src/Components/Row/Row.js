@@ -22,7 +22,7 @@ const Row = () => {
         <div className={classes.item4}>
           <h3>Your Tax Bracket.</h3>
           <div className={classes.brack}>
-            <h6>Your Bracket...</h6>
+            <h6>Your Tax Bracket...</h6>
           </div>
         </div>
       </div>

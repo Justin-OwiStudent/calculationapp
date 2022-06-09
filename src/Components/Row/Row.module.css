@@ -1,6 +1,8 @@
 .row {
     height: 150px;
     width: 100%;
+    /* background-color: #121324; */
+    background-color: rgba(255, 0, 0, 0);
    
     float: left;
     margin-top: 20px;
@@ -10,7 +12,10 @@
     width: 20%;
     height: 85%;
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
-    background-color: rgb(243, 243, 243);
+    /* background-color: #2D2E40; */
+
+    background-color: #2d2e40d8;
+
 
     margin-left: 30px;
     border-radius: 20px;
@@ -21,7 +26,11 @@
     width: 24.5%;
     height: 85%;
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
-    background-color: rgb(255, 255, 255);
+    /* background-color: #2D2E40; */
+
+    background-color: #2d2e40d8;
+
+
     margin-left: 30px;
     border-radius: 20px;
     float: left;
@@ -32,7 +41,10 @@
     width: 24.5%;
     height: 85%;
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
-    background-color: rgb(243, 243, 243);
+    /* background-color: #2D2E40; */
+
+    background-color: #2d2e40d8;
+
 
     margin-left: 30px;
     border-radius: 20px;
@@ -44,7 +56,10 @@
     width: 20%;
     height: 85%;
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
-    background-color: rgb(243, 243, 243);
+    /* background-color: #2D2E40; */
+
+    background-color: #2d2e40d8;
+
 
     margin-left: 30px;
     border-radius: 20px;
@@ -56,7 +71,7 @@
     width: 90%;
     margin: auto;
     height: 50px;
-    
+    background-color: #2d2e4000;
     margin-top: 20px;
 }
 
@@ -64,4 +79,6 @@ h6 {
     margin-left: 25px;
     margin-top: 25px;
     font-weight: 400;
+     background-color: #ff686800;
+     color: white;
 }

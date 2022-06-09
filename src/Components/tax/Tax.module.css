@@ -2,7 +2,9 @@
     width: 40%;
     height: 300px;
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
-    background-color: #f1f1f1;
+    /* background-color: #2D2E40; */
+    background-color: #2d2e40d8;
+
 
     float: left;
     margin-top: 10px;
@@ -41,7 +43,8 @@
 .Tex{
     background-color: #2d2e4000;
     text-align: center;
-    color: #000000;
+    color: #5C7DEE;
+
     margin-top: 10px;
     font-weight: 400;
     

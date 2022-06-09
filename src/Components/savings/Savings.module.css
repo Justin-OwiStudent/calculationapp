@@ -3,7 +3,9 @@
     height: 100px;
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
-    background-color: #f1f1f1;
+    /* background-color: #2D2E40; */
+    background-color: #2d2e40d8;
+
     
 }
 
@@ -21,6 +23,10 @@
     height:400px;
     float: left;
     margin-left: 30px;
+    /* background-color: #121324; */
+
+    background-color: rgba(255, 0, 0, 0);
+
     /* border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
     background-color: #f1f1f1; */
@@ -33,7 +39,10 @@
     height: 280px;
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
-    background-color: #f1f1f1;
+    /* background-color: #2D2E40; */
+
+    background-color: #2d2e40d8;
+
 }
 
 .amount {
