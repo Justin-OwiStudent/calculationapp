@@ -22,6 +22,16 @@ describe('Testing monthly expenses', () => {
 })
 
 
+test("Check if our button works...", () => {
+    render(<Tax />);
+
+    const calculationButton = screen.getByTestId("button");
+
+    userEvent.click(calculationButton);
+
+    
+  });
+
     // test("is the button being clicked...", () => {
     //     render(<Monthly/>)
     //     const inputElement = screen.getAllByRole("button")

@@ -1,6 +1,9 @@
 import classes from "./Row.module.css";
 
 const Row = (props) => {
+
+ 
+   
   return (
     <>
       <div className={classes.row}>
@@ -11,12 +14,12 @@ const Row = (props) => {
 
         <div className={classes.item2}>
           <h3>Monthly expenses cost.</h3>
-          <h6> R:{props.price}</h6>
+          <h6> R:</h6>
         </div>
 
         <div className={classes.item3}>
-          <h3>Income After Tax.</h3>
-          <h6>Your Income After Tax...</h6>
+          <h3>Payable Tax.</h3>
+          <h6></h6>
         </div>
 
         <div className={classes.item4}>

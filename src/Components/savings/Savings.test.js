@@ -43,6 +43,15 @@ describe('Testing Salary entry', () => {
     expect(inputElement.value).toBe("2")
     })
 
+    test("Check if our button works...", () => {
+      render(<Savings/>);
+  
+      const calculationButton = screen.getByTestId("button");
+  
+      userEvent.click(calculationButton);
+    });
+    
+
     // test("is the Button being clicked...", () => {
     //   render(<Savings/>)
     //   const inputElement = screen.getByRole("btn")

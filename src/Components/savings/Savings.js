@@ -14,14 +14,11 @@ const Savings = () => {
     {"bracket6" : "1,731,600"},
    
   ];
-  
+
 
 for (let i = 0; i < BracketArray.length; i++) {
-  if(tax === "100,000"){
-    
-    // map(row4) with ("bracket one")
+  if(tax <= "100,000"){
 
-  
   } 
 
   else if (tax == "353,100"){
@@ -83,7 +80,7 @@ for (let i = 0; i < BracketArray.length; i++) {
             placeholder="% you want to save..."
             data-testid="perc"
           ></input>
-          <button className={classes.btn} role="button" name="button">Save</button>
+          <button className={classes.btn} data-testid="button">Save</button>
         </div>
 
       </div>

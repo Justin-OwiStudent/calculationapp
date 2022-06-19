@@ -21,6 +21,24 @@ describe('Testing monthly expenses', () => {
     expect(inputElement.value).toBe("2")
 })
 
+test("Check if our button works...", () => {
+    render(<Monthly />);
+
+    const calculationButton = screen.getByTestId("button");
+
+    userEvent.click(calculationButton);
+
+    
+  });
+
+// test("Function is running...", () => {
+//     render(<Monthly/>)
+//     const inputElement = screen.getByTestId("monthSal")
+
+//     userEvent.type(inputElement,"2")
+
+//     expect(inputElement.value).toBe("2")
+// })
 
     // test("is the button being clicked...", () => {
     //     render(<Monthly/>)

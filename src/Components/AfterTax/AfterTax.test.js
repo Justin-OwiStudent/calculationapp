@@ -33,6 +33,16 @@ test("Test if price is being entered...", () => {
   
 })
 
+test("Check if our button works...", () => {
+    render(<AfterTax/>);
+
+    const calculationButton = screen.getByTestId("button");
+
+    userEvent.click(calculationButton);
+
+    
+  });
+
 
 
 });

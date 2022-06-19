@@ -18,17 +18,22 @@ const AfterTax = () => {
   //   console.log(total)
   // }
 
-  const addExpense = () => {
-    Datas.push({ name, price });
+  const addExpenseHandler = () => {
 
-    // console.log(Datas);
+    setDatas(prevState=>[{name, price},...prevState])
+   
+    setResult(price)
+
+    // let calc = [...arr, price]
+    // setResult(calc)
+
+    
+
+    
+
   };
 
-  const doSomeCalculation = (e) => {
-    e.preventDefault()
-    let calc = (+price)
-    setResult(calc)
-}
+
 
   
 
@@ -41,13 +46,12 @@ const AfterTax = () => {
         <h1>Monthly Expenses</h1>
         <input
           onChange={(e) => setName(e.target.value)}
-          // onChange={(e) => setTax(e.target.value)}
           value={name}
           className={classes.inp1}
           placeholder="Name Of Item"
           data-testid="itemName"
           id="itemName"
-        ></input>
+        />
         <input
           onChange={(e) => setPrice(e.target.value)}
           value={price}
@@ -55,8 +59,9 @@ const AfterTax = () => {
           placeholder="Price Of Item"
           data-testid="price"
           id="itemPrice"
-        ></input>
-        <button className={classes.bttn} onClick={addExpense} onSubmit={doSomeCalculation}>
+        />
+        
+        <button className={classes.bttn} onClick={addExpenseHandler}  data-testid="button">
           Add Item
         </button>
       
@@ -69,18 +74,18 @@ const AfterTax = () => {
                 {Data.name}
               </p>
               <p className={classes.pepe} aria-length={index}>
-                
                 R: {Data.price}
               </p>
             </div>
           ))}
-
+          
         </div>
+            <div className={classes.disp}>{result}</div>
 
       </div>
 
       <div className={classes.big2}>
-        <h3>Tax Brackets</h3>
+        <h3>Tax Bracket Devisions</h3>
         <div className={classes.bracket1}>
           <p className={classes.pep}>R0 - R226,000</p>{" "}
         </div>
