@@ -12,18 +12,18 @@
 <!-- HEADER SECTION -->
 <h5 align="center" style="padding:0;margin:0;">Justin Koster</h5>
 <h5 align="center" style="padding:0;margin:0;">200100</h5>
-<h6 align="center">DV200 - Term 1 | 2022</h6>
+<h6 align="center">DV202 - Term 2 | 2022</h6>
 </br>
 <p align="center">
 
   <a href="https://github.com/MikeMaynard14/termoneexample">
-    <img src="https://github.com/Justin-OwiStudent/pokedexler/blob/main/src/components/Header/Main/img/LOGO.gif" alt="Logo" width="140" height="140">
+    <img src="" alt="Logo" width="140" height="140">
   </a>
   
-  <h3 align="center">PokeDexler</h3>
+  <h3 align="center">Budget Bros</h3>
 
   <p align="center">
-    A react project using the Poke Api to demonstrate data visualization using charts js  <br>
+    A react project for unit testing  <br>
    
     
    <br />
