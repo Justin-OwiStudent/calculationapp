@@ -4,34 +4,24 @@ import Savings from "./Savings"
 
 describe('Testing Salary entry', () => {
 
-    // beforeEach(() => {
-    //     render(<Savings />);
-    //   });
+  // const typeInput = ({ inputOne, inputTwo }) => {
+  //   const inputNumberOneElement = screen.getByTestId("Salary");
+  //   const inputNumberTwoElement = screen.getByTestId("perc");
 
-    const typeInput = ({ inputOne }) => {
-        const inputNumberOneElement = screen.getByLabelText(/NumberOne/i);
-        if (inputOne) {
-          userEvent.type(inputNumberOneElement, inputOne);
-        return {
-          inputNumberOneElement,
-        };
-      };
-    };
-
-    // test("make sure that the inputs are empty when rendered", () => {
-    //     const { inputNumberOneElement } = typeInput({});
+  //   if (inputOne) {
+  //     userEvent.type(inputNumberOneElement, inputOne);
+  //   }
+  //   if (inputTwo) {
+  //     userEvent.type(inputNumberTwoElement, inputTwo);
+  //   }
     
-    //     expect(inputNumberOneElement.value).toBe("");
-        
-    //   });
+  // };
 
    test("input Should be empty", () => {
        render(<Savings/>)
        const inputElement = screen.getAllByRole("textbox")
        expect(inputElement[0].value).toBe("")
-    //    inputElement.map(input => ({
-    //        expect(input).toBe("")
-    //    }))
+ 
    })
    
    test("salary is Entered...", () => {
@@ -53,4 +43,31 @@ describe('Testing Salary entry', () => {
     expect(inputElement.value).toBe("2")
     })
 
+    // test("is the Button being clicked...", () => {
+    //   render(<Savings/>)
+    //   const inputElement = screen.getByRole("btn")
+  
+    //   userEvent.click("clicked")
+  
+    //   expect("btn").toBe("clicked")
+    //   })
+
+
+  
+  
+
+
+
+      // test("is the Button being clicked...", () => {
+      //   render(<Savings />);
+    
+      //   //act
+      //   // const calculationButton = screen.getAllByRole("button");
+    
+      //   // userEvent.click(calculationButton);
+    
+      //   userEvent.click(screen.getByRole('button'))
+      //   expect(screen.getByRole('button')).toBeEnabled()
+
+      // });
 });

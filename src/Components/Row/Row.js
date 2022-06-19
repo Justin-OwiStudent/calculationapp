@@ -1,6 +1,6 @@
 import classes from "./Row.module.css";
 
-const Row = () => {
+const Row = (props) => {
   return (
     <>
       <div className={classes.row}>
@@ -11,7 +11,7 @@ const Row = () => {
 
         <div className={classes.item2}>
           <h3>Monthly expenses cost.</h3>
-          <h6>Total Monthly Savings...</h6>
+          <h6> R:{props.price}</h6>
         </div>
 
         <div className={classes.item3}>
